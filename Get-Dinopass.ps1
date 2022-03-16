@@ -10,3 +10,6 @@ while($password.length -lt 12)
 $password | Set-clipboard
 
 Write-Output "Password copied to clipboard:" $password
+
+
+#test
