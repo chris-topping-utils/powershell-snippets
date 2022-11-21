@@ -1,5 +1,5 @@
-# Confirm the name of the software you wish to remove. You can confirm this by running "Get-WmiObject -Class Win32_Product"
-# Define software you wish to silently remove
+# Universal silent uninstall, designed for use with RMM software to cleanup software across multiple machines.
+# Confirm the name of the software you wish to remove. You can confirm this by running "Get-WmiObject -Class Win32_Product" copy/pasting the 'name' property.
 $SoftwareName = "softwarenamehere"
 
 # Get identifyingnumber and convert it to a string
